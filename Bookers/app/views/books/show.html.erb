@@ -1,0 +1,24 @@
+<main>
+    <lp>
+    <p id="notice">Book was successfully created.</p>
+    </lp>
+
+    <lp>
+    <strong>Title:</strong>
+     <%= @book.title %>
+    </lp>
+        <br>
+    <lp>
+    <strong>Body:</strong>
+     <%= @book.body %>
+    </lp>
+    <br>
+
+     <%= link_to 'Edit', edit_book_path(@book.id) %>
+    <%= link_to "Back", books_path %>
+
+</main>
+
+
+
+

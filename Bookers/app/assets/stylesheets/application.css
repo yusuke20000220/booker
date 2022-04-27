@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  display: flex;
+  width: 90%;
+  padding: 15px 0;
+  text-align:center;
+}
+td{
+  padding:5px;
+}
+nav{
+  display: flex;
+
+}
+main{
+  margin: 30px 30px ;
+}
+lp{
+  margin:3px;
+}
